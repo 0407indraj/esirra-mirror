@@ -26,6 +26,7 @@ test_esirra_Queue(void)
         struct esirra_Queue queue;
         double x[3];
         double *temp;
+        size_t temp_size;
 
         x[0] = 0.0;
         x[1] = 0.1;
@@ -39,7 +40,7 @@ test_esirra_Queue(void)
         
         assert((&queue)->len == 3);
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
                 temp = esirra_Queue_pop(&queue, NULL);
                 assert(temp != NULL);
                 assert(*temp == x[i]);
@@ -47,6 +48,12 @@ test_esirra_Queue(void)
                 temp = NULL;
         }
 
+        temp = esirra_Queue_pop(&queue, &temp_size);
+        assert(temp != NULL);
+        assert(*temp == x[2]);
+        assert(temp_size == sizeof(double));
+        free(temp);
+        temp = NULL;
 }
 
 int

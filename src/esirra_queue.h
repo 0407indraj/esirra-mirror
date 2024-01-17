@@ -43,6 +43,6 @@ bool
 esirra_Queue_push(struct esirra_Queue *queue, void *data, size_t size);
 
 void *
-esirra_Queue_pop(struct esirra_Queue *queue, size_t *len);
+esirra_Queue_pop(struct esirra_Queue *queue, size_t *size);
 
 #endif
