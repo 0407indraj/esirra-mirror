@@ -1,6 +1,8 @@
 The Esirra project provides a collection of data structures for C
 programs, targeting C99 (ISO/IEC 9899:1999).
 
+Whole-project license: see COPYING.
+
 REPORT A BUG
 ============
 
