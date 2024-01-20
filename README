@@ -21,52 +21,26 @@ CONTRIBUTING
 The Esirra project does not accept patches from the general public. If
 you wish to contribute, get in touch via esirra-discuss (as above).
 
-All contributions are subject to the Developer Certificate of Origin:
+All contributions should be licensed under the OpenBSD variant of the
+ISC license, reproduced below.
 
 ---
 
-Developer Certificate of Origin
-Version 1.1
+Copyright (c) YYYY YOUR NAME HERE <user@your.dom.ain>
 
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
 
-Everyone is permitted to copy and distribute verbatim copies of this
-license document, but changing it is not allowed.
-
-
-Developer's Certificate of Origin 1.1
-
-By making a contribution to this project, I certify that:
-
-(a) The contribution was created in whole or in part by me and I
-    have the right to submit it under the open source license
-    indicated in the file; or
-
-(b) The contribution is based upon previous work that, to the best
-    of my knowledge, is covered under an appropriate open source
-    license and I have the right under that license to submit that
-    work with modifications, whether created in whole or in part
-    by me, under the same open source license (unless I am
-    permitted to submit under a different license), as indicated
-    in the file; or
-
-(c) The contribution was provided directly to me by some other
-    person who certified (a), (b) or (c) and I have not modified
-    it.
-
-(d) I understand and agree that this project and the contribution
-    are public and that a record of the contribution (including all
-    personal information I submit with it, including my sign-off) is
-    maintained indefinitely and may be redistributed consistent with
-    this project or the open source license(s) involved.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ---
-
-You must indicate your agreement to the Developer Certificate of Origin
-by signing off on all patches you submit. Patches without sign-off will
-not be accepted. When signing off on a patch, you must use your real,
-legal name so that the provenance of your contribution may be
-established.
 
 ************************************************************************
 COPYRIGHT NOTICE FOR README FILE
