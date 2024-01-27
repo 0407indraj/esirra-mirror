@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2024 Indraj Gandham <indraj@posteo.net>
+ * Copyright (c) 2024 Elliot Blower <elliotb@airmail.cc>
  *
  * Permission to use, copy, modify, and distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -40,6 +41,7 @@ esirra_Queue_push(struct esirra_Queue *queue, void *data, size_t size)
 
         node->data = malloc(size);
         if (node->data == NULL) {
+                free(node);
                 return false;
         }
 
